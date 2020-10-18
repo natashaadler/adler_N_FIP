@@ -1,7 +1,7 @@
 ![header image](/images/mikitoReadme.png "site style frame from cinema")
 
-# Homework #1/2
-### Dynamic Content
+# Mikito - Portfolio Website
+### Final Integrated Project
 
 *October 18, 2020*
 
