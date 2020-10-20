@@ -1,6 +1,10 @@
+header{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 nav{
     display: flex;
-
     ul{
         list-style-type: none;
         display: inline-flex;
@@ -12,6 +16,12 @@ nav{
 
     li{
         text-align: center;
+    }
+
+    li a{
+        text-decoration: none;
+        color: $primaryColor;
+        font-weight: bold;
     }
 
     .logo{
