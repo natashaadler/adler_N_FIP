@@ -6,14 +6,13 @@
 
 h3 {
     font-size: $subHeadingFontSize;
-    font: $headingFont;
+    font-family: $headingFont;
     font-weight: 600;
 }
 
 body{
-    padding: 0rem 12rem;
     align-content: center;
-    font: $mainFont;
+    font-family: $mainFont;
 }
 
 .row {
@@ -28,4 +27,32 @@ body{
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+
+    img{
+      width: 100%;
+    }
+
 }
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
