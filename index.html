@@ -9,27 +9,46 @@
 <body>
     <h1 class="hidden">MIKITO - HOME</h1>
     <header><!--HEADER STARTS-->
-        <nav><!-- NAVAGATION STARTS-->
+        <nav class="row"><!-- NAVAGATION STARTS-->
             <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="portfolio.html">MY PORTFOLIO</a></li>
-                <li><a href="about.html">ABOUT ME</a></li>
-                <li><a href="contact.html">LET'S TALK</a></li>
+                <li class="col"><a href="index.html"><img class="logo" src="images/horizontalGradient.svg"></a></li>
+                <li class="col"><a href="index.html">Home</a></li>
+                <li class="col"><a href="portfolio.html">My Portfolio</a></li>
+                <li class="col"><a href="about.html">About Me</a></li>
+                <li class="col"><a href="contact.html">Let's Talk</a></li>
             </ul>
         </nav><!-- NAVAGATION ENDS-->
     </header><!--HEADER ENDS-->
     <main>
-        <div><!-- DEMO REEL STARTS-->
-            <video src=""></video>
+        <div class="demoContainer"><!-- DEMO REEL STARTS-->
+            <video class="demo" src="images/renderTest.mp4"></video>
         </div><!-- DEMO REEL ENDS-->
-        <div><!-- ABOUT ME STARTS-->
-            <img src="" alt="">
+        <div class="homeAbout"><!-- ABOUT ME STARTS-->
+            <a href="about.html"><img class="homeAboutImg" src="images/homeAboutImg.jpg" alt="image about mikito"></a>
         </div><!-- ABOUT ME ENDS-->
-        <div><!-- ART WORK GALLERY STARTS-->
+        <div class="homeGallery"><!-- ART WORK GALLERY STARTS-->
+            <img src="images/printPlaceholder.svg" alt="">
+            <p>Print Placeholder</p>
+            <img src="images/cinemaPlaceholder.svg" alt="">
+            <p>Cinema 4D Placeholder</p>
+            <img src="images/layoutPlaceholder.svg" alt="">
+            <p>Layout Placeholder</p>
         </div><!-- ART WORK GALLERY ENDS-->
+        <div><!-- INSTAGRAM STARTS-->
+            <a href="https://www.instagram.com/natashaadlerartist/"><img class="homeSocialMedia" src="images/homeSocialMedia-100.jpg" alt="Link to Social media Page"></a>
+        </div><!-- INSTAGRAM ENDS-->
     </main>
     <footer><!--FOOTER STARTS-->
-        <div></div>
+        <div class="footerContainer">
+            <div>
+                <p>(c) 2020 Mikito Design LLC. All Rights Reserved.</p>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/natashaadlerartist/"><img src="images/instagram.png" alt="instagram link"></a>
+                <a href="contact.html"><img src="images/email.png" alt="email link"></a>
+                <a href="https://www.linkedin.com/in/natasha-adler-862006193/"><img src="images/linkedin.png" alt="linkedin link"></a>
+            </div>
+        </div>
     </footer><!--FOOTER ENDS-->
 </body>
 </html>
