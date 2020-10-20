@@ -20,6 +20,10 @@ This project was designed for **Fanshawe College** for the program of **Interact
 
 The purpose is to have all projects in one place to showcase a portfolio as well as apply the things learned in class (backend - front end - designs). 
 
+### SASS and JavaScript Plan
+
+I plan to use carasol in java script to change the portfolio print photos by having them hidden and once you click then the next image comes to view. Farther down in that document I am planning on having my portfolio images change when you hover over top either using mouse over/mouse leave or an event to then change the image when the mouse comes in contact. For the pieces themselves I will either be opening a new page to display the works or once clicked I will have a pop up tab on that same page that showcases the work. 
+
 
 ### Authors
 
