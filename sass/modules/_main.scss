@@ -4,6 +4,28 @@
     display: none;
 }
 
+h3 {
+    font-size: $subHeadingFontSize;
+    font: $headingFont;
+    font-weight: 600;
+}
+
 body{
-    width: 1320px;
+    padding: 0rem 12rem;
+    align-content: center;
+    font: $mainFont;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
 }
