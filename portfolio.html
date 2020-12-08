@@ -9,68 +9,146 @@
 </head>
 <body>
     <h1 class="hidden">MIKITO - PORTFOLIO</h1>
-    <header><!--HEADER STARTS-->
+    <header class="container"><!--HEADER STARTS-->
         <nav class="row"><!-- NAVAGATION STARTS-->
             <ul>
                 <li class="col"><a href="index.html"><img class="logo" src="images/horizontalGradient.svg"></a></li>
-                <li class="col"><a href="index.html">Home</a></li>
-                <li class="col"><a href="portfolio.html">My Portfolio</a></li>
-                <li class="col"><a href="about.html">About Me</a></li>
-                <li class="col"><a href="contact.html">Let's Talk</a></li>
+                <li class="col"><a href="index.html">HOME</a></li>
+                <li class="col"><a href="portfolio.html">MY PORTFOLIO</a></li>
+                <li class="col"><a href="about.html">ABOUT ME</a></li>
+                <li class="col"><a href="contact.html">LET'S TALK</a></li>
             </ul>
         </nav><!-- NAVAGATION ENDS-->
     </header><!--HEADER ENDS-->
-    <main>
+    <main class="container">
         <div>
             <h2>mikito | demo reel + portfolio</h2>
         </div>
         <div><!--GALLERY START-->
-            <div>
-                <h3>print portfolio</h3>
+            <div class="row"><!--Gallery Slider-->
+                <img class="col" src="images/hero_portfolio.svg" alt="">
             </div>
-            <div><!--Gallery Slider-->
-                <img src="" alt="">
-            </div>
-        </div><!--GALLERY END-->
+        </div><!--GALLERY Slider END-->
         <div><!--DEMO REEL START-->
             <div>
                 <h3>animation + motion graphic demo reel</h3>
             </div>
-            <div class="demoContainer"><!--Demo Reel Video-->
-                <video class="demo" src="images/renderTest.mp4"></video>
+            <div class="demoContainer"><!-- DEMO REEL STARTS-->
+                <video width="1170px" controls autoplay>
+                <source src="images/mainFIPdemoReel.mp4" type="video/mp4">
+                <source src="images/mainFIPdemoReel.ogg" type="video/ogg">
+                </video>
             </div>
         </div><!--DEMO REEL END-->
         <div><!--FULL PROJECTS START-->
-            <div></div>
-                <h3>full portfolio</h3>
+                <!--I want the images so when you click on them its a pop up if possible without redirecting to another page-->
+                <!--and if possible a drop down for the text if it exceeds beyound 3 lines.-->
+            <h3>full portfolio</h3>
+            <div class="row"><!-- Portfolio 1-->
+                <img class="col" src="images/monster_1.svg" alt="">
+                <img class="col" src="images/monster_2.svg" alt="">
+                <img class="col" src="images/monster_3.svg" alt="">
+                <img class="col" src="images/monster_4.svg" alt="">
+                <p>A Monster’s Inc    |    Practice Animation Series </p>
+                <p>This animation was created for the purpose of my semester two final. It’s inspired by Monster Inc. It plays with the idea of teeth being pointy yet harmless, where at first it may look like you’re heading into a mouth of sorts there is actually an eye at the end, playing with you mind. The colours make it fun rather than scary, it’s meant to make you smile.  It’s a rather curious monster. </p>
             </div>
-            <div><!-- project gallery (6)-->
-                <img src="" alt="">
-                <p></p>
-                <img src="" alt="">
-                <p></p>
-                <img src="" alt="">
-                <p></p>
-                <img src="" alt="">
-                <p></p>
-                <img src="" alt="">
-                <p></p>
-                <img src="" alt="">
-                <p></p>
+            <div class="row"><!-- Portfolio 2-->
+                <img class="col" src="images/leo_1.svg" alt="">
+                <img class="col" src="images/leo_2.svg" alt="">
+                <img class="col" src="images/leo_3.svg" alt="">
+                <img class="col" src="images/leo_4.svg" alt="">
+                <p>Leo Clothing Vintage  |  Client Project</p>
+                <p>Leo represents the people, their personal expression and confidence. It is the spirited fire sign of the Kings and Queens of the celestrial Jungle. Leo represents strength, passion, power, confidence, creativity and above all a good heart. “Kings and Queens” represents anyone and everyone. Leo is clothing for ALL people who are ready to discover their expression through apparel and clothing.</p>
+            </div>
+            <div class="row"><!-- Portfolio 3-->
+                <img class="col" src="images/flower_1.svg" alt="">
+                <img class="col" src="images/flower_2.svg" alt="">
+                <img class="col" src="images/flower_3.svg" alt="">
+                <img class="col" src="images/flower_4.svg" alt="">
+                <p>Fragile Like a Flower  |  Practice Animation Series </p>
+                <p>A flower is delicate, add glass and it makes it fragile. This project was a play with cinema, to learn new skills such as the vertex map, the tension tag, and the random effector. Bright pink is used to add to the delicacy as well as maintain a pop to the portrait. It reminds me of a bath bomb exploding with goodness. </p>
+            </div>
+            <div class="row"><!-- Portfolio 4-->
+                <img class="col" src="images/sangwa_1.svg" width="50%" alt="">
+                <img class="col" src="images/sangwa_2.svg" width="50%" alt="">
+                <p>Sangwa  |  Illustration Client Project</p>
+                <p>Sangwa was a project I worked on over the summer of 2020. It contains 4 illustrations one for analytics, one for automation and one for full stack. The fourth one is a combination of all of them three of those. </p>
+            </div>
+            <div class="row"><!-- Portfolio 5-->
+                <img class="col" src="images/manitoba_1.svg" alt="">
+                <img class="col" src="images/manitoba_2.svg" alt="">
+                <img class="col" src="images/manitoba_3.svg" alt="">
+                <img class="col" src="images/manitoba_4.svg" alt="">
+                <p>Manitoba Wildfire Design  |  Client Project</p>
+                <p>Manitoba Wildfire program was looking for a new design this summer, 2020. They were looking for a new innovative design that represented Canada, Manitoba, and did not have a generic design. The File Leaf represents Canada, the tree silhouette representing the nature behind the devastation of fire and the ox a symbol fo their crew. </p>
+            </div>
+        </div>
+            <div><!-- project gallery (6 or 9 or 12 imgs)-->
+                <h3>full portfolio</h3>
+                <div class="row">
+                    <img class="col space" src="images/leo_logo1.svg" alt="">
+                    <!-- <p>Leo  |  Logo </p> -->
+                    <img class="col space" src="images/leo_logo2.svg" alt="">
+                    <!-- <p>Leo |  Symbol </p> -->
+                    <img class="col space" src="images/leo_business.svg" alt="">
+                    <!-- <p>Leo |  Business Card </p> -->
+                    <img class="col space" src="images/leo_brand.svg" alt="">
+                    <!-- <p>Leo  |  Style Guide</p> -->
+                </div>
+                <div class="row"><!-- Text -->
+   
+                    <p class="col space">Leo  |  Logo </p> 
+                    <p class="col space">Leo |  Symbol </p> 
+                    <p class="col space">Leo |  Business Card </p> 
+                    <p class="col space">Leo  |  Style Guide</p>
+                </div>
+                <div class="row">
+                    <img class="col space"  src="images/rose_1.svg" alt="">
+                    <!-- <p>Folding Rose |  Cinema Series </p> -->
+                    <img class="col space"  src="images/rose_2.svg" alt="">
+                    <!-- <p>Folding Rose |  Cinema Series </p> -->
+                    <img class="col space"  src="images/rose_3.svg" alt="">
+                    <!-- <p>Folding Rose |  Cinema Series </p> -->
+                    <img class="col space"  src="images/rose_4.svg" alt="">
+                    <!-- <p>Folding Rose |  Cinema Series </p> -->
+                </div>
+                <div class="row">
+                    <p class="col space">Folding Rose |  Cinema Series </p> 
+                    <p class="col space">Folding Rose |  Cinema Series </p> 
+                    <p class="col space">Folding Rose |  Cinema Series </p> 
+                    <p class="col space">Folding Rose |  Cinema Series </p> 
+                </div>
+                </div>
+                <div class="row">
+                    <img class="col space"  src="images/ceci_1.svg" alt="">
+                    <!-- <p>Ceci  |  Makeup Brand Packaging </p> -->
+                    <img class="col space"  src="images/ceci_2.svg" alt="">
+                    <!-- <p>Ceci  |  Logo </p> -->
+                    <img class="col space"  src="images/mixedbyoso_1.svg" alt="">
+                    <!-- <p>A1 Studios |  Mixedbyoso Logo </p> -->
+                    <img class="col space"  src="images/mixedbyoso_2.svg" alt="">
+                    <!-- <p>Mixedbyoso  |  Logo </p> -->
+                </div>
+                <div class="row">
+                    <p class="col space">Ceci  |  Makeup Brand Packaging </p> 
+                    <p class="col space">Ceci  |  Logo </p> 
+                    <p class="col space">A1 Studios |  Mixedbyoso Logo </p> 
+                    <p class="col space">Mixedbyoso  |  Logo </p> 
+                </div>
             </div>
         </div><!--FULL PROJECTS END-->
     </main>
-    <footer><!--FOOTER STARTS-->
-        <div class="footerContainer">
-            <div>
-                <p>(c) 2020 Mikito Design LLC. All Rights Reserved.</p>
-            </div>
-            <div>
+    <footer class="container row"><!--FOOTER STARTS-->
+        <div class="col">
+            <p>(c) 2020 Mikito Design LLC. All Rights Reserved.</p>
+        </div>
+        <div class="col">
+            <div class="row">
                 <a href="https://www.instagram.com/natashaadlerartist/"><img src="images/instagram.png" alt="instagram link"></a>
                 <a href="contact.html"><img src="images/email.png" alt="email link"></a>
                 <a href="https://www.linkedin.com/in/natasha-adler-862006193/"><img src="images/linkedin.png" alt="linkedin link"></a>
             </div>
         </div>
-    </footer><!--FOOTER ENDS-->
+</footer><!--FOOTER ENDS-->
 </body>
 </html>

@@ -8,53 +8,51 @@
 </head>
 <body>
     <h1 class="hidden">MIKITO - CONTACT ME</h1>
-    <header><!--HEADER STARTS-->
+    <header class="container"><!--HEADER STARTS-->
         <nav class="row"><!-- NAVAGATION STARTS-->
             <ul>
                 <li class="col"><a href="index.html"><img class="logo" src="images/horizontalGradient.svg"></a></li>
-                <li class="col"><a href="index.html">Home</a></li>
-                <li class="col"><a href="portfolio.html">My Portfolio</a></li>
-                <li class="col"><a href="about.html">About Me</a></li>
-                <li class="col"><a href="contact.html">Let's Talk</a></li>
+                <li class="col"><a href="index.html">HOME</a></li>
+                <li class="col"><a href="portfolio.html">MY PORTFOLIO</a></li>
+                <li class="col"><a href="about.html">ABOUT ME</a></li>
+                <li class="col"><a href="contact.html">LET'S TALK</a></li>
             </ul>
         </nav><!-- NAVAGATION ENDS-->
     </header><!--HEADER ENDS-->
-    <main>
+    <main class="container">
         <div><!-- MIKITO IMG STARTS-->
-            <img src="" alt="">
+            <img src="images/hero_contact.svg" alt="">
         </div><!-- MIKITO IMG ENDS-->
-        <div><!-- CONTACT FORM STARTS-->
+        <div class="formCol padding"><!-- CONTACT FORM STARTS-->
             <h2>let's connect | mikito</h2>
-            <form action="">
-                <label for=""></label><!--First Name-->
-                <input type="text">
-                <label for=""></label><!--Last Name-->
-                <input type="text">
-                <label for=""></label><!--Email-->
-                <input type="text">
-                <label for=""></label><!--Message-->
-                <input type="text">
-                <button></button><!--Submit Button-->
+            <form class=" col" action="./includes/mail/mail.php" method="POST">
+                <label class="row" for="name">Name</label><!--Name--> <br>
+                <input class="row" type="text" name="name" placeholder="Name..">
+                <label class="row" for="">Email</label><!--Email--><br>
+                <input class="row" type="text" name="email" placeholder="Email..">
+                <label class="row" for="">Message</label><!--Message--> <br>
+                <input class="row" type="text" name="message" placeholder="Message.."> <br>
+                <button class="row" type ="submit">Submit</button><!--Submit Button--> <br>
             </form>
         </div><!-- CONTACT FORM ENDS-->
-        <div><!-- IMG STARTS-->
-            <img src="" alt="">
+        <div ><!-- IMG STARTS-->
+            <img src="images/img_contact.svg" alt="">
         </div><!-- IMG ENDS-->
         <div><!--THANK YOU STARTS-->
         <h2>thank you | mikito</h2>
         </div><!--THANK YOU ENDS-->
     </main>
-    <footer><!--FOOTER STARTS-->
-        <div class="footerContainer">
-            <div>
-                <p>(c) 2020 Mikito Design LLC. All Rights Reserved.</p>
-            </div>
-            <div>
+    <footer class="container row"><!--FOOTER STARTS-->
+        <div class="col">
+            <p>(c) 2020 Mikito Design LLC. All Rights Reserved.</p>
+        </div>
+        <div class="col">
+            <div class="row">
                 <a href="https://www.instagram.com/natashaadlerartist/"><img src="images/instagram.png" alt="instagram link"></a>
                 <a href="contact.html"><img src="images/email.png" alt="email link"></a>
                 <a href="https://www.linkedin.com/in/natasha-adler-862006193/"><img src="images/linkedin.png" alt="linkedin link"></a>
             </div>
         </div>
-    </footer><!--FOOTER ENDS-->
+</footer><!--FOOTER ENDS-->
 </body>
 </html>
